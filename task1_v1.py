@@ -6,11 +6,11 @@ from flask import Flask, jsonify, request
 
 # create your API token, and set it up in Postman collection as part of the Body section
 API_TOKENS = {
-    "Ilia Kova" : "SEKRET_TOKEN"
+    "Ilia Kova" : ""
 }
 
 # you can get API keys for free here - https://api-ninjas.com/api/jokes
-RSA_KEY = "ZAAY5D4YYNHZC7X3QEXF4R5UC"
+RSA_KEY = ""
 
 app = Flask(__name__)
 
